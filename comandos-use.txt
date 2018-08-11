@@ -14,3 +14,6 @@ COMANDOS USADOS EN EL CURSO:
 
 4- install hammerjs - para gestos con el celular
   npm install --save hammerjs
+
+5- Incorporando angular2-moment al proyecto
+  npm install --save moment ngx-moment
