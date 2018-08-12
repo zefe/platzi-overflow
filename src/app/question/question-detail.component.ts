@@ -8,7 +8,7 @@ import { Question } from './question.model';
 export class QuestionDetailComponent {
   question: Question = new Question(
     'Esta es una nueva pregunta sobre android',
-    'Tengo una duda con una aplicacion que estoy creando para Android',
+    'Tengo una duda con una aplicacion que estoy creando para Android, se puede imprimir un layoutgradient?',
     new Date,
     'devicon-android-plain-wordmark colored'
   );
