@@ -11,14 +11,16 @@ import 'hammerjs'; // iconos
 
 import { QuestionDetailComponent } from './question/question-detail.component';
 import { AnswerFormComponent } from './answer/answer-form.component';
+import { SigninScreenComponent } from './auth/signin-screen.component';
 
 import { MomentModule } from 'ngx-moment';
-
+// declarations componentes que vamos a usar
 @NgModule({
   declarations: [
     AppComponent,
     QuestionDetailComponent,
-    AnswerFormComponent
+    AnswerFormComponent,
+    SigninScreenComponent
   ],
   imports: [
     BrowserModule,
