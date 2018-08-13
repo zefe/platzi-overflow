@@ -7,7 +7,6 @@ import { User } from './user.model';
   templateUrl: './signin-screen.component.html'
 })
 export class SigninScreenComponent implements OnInit {
-
   signinForm: FormGroup;
 
   ngOnInit() {
@@ -25,7 +24,6 @@ export class SigninScreenComponent implements OnInit {
       const { email, password } = this.signinForm.value;
       const user = new User(email, password);
       console.log(user);
-      alert('jdjdjddj');
     }
   }
 
